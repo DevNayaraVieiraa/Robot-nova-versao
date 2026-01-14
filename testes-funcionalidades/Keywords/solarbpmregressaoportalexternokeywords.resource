@@ -1,7 +1,7 @@
 *** Settings ***    # Configurações do arquivo de recursos
 Documentation    Keywords específicas para testes de regressão do portal externo
 Library          Browser  # Biblioteca para automação web    # Importa biblioteca de automação web
-Resource         portalexternokeywords.resource  # Importa keywords prontas de login    # Importa outro arquivo de recursos
+Resource         portalExternoKeywords.resource  # Importa keywords prontas de login    # Importa outro arquivo de recursos
 
 
 *** Keywords ***    # Seção com keywords (funções) customizadas

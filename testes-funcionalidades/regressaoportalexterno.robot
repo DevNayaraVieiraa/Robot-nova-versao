@@ -8,11 +8,11 @@ Library          Browser  run_on_failure=take screenshot    # Biblioteca para au
 
 *** Variables ***    # Seção de variáveis globais
 # Configurações do portal externo
-${link_portal}        SEU_LINK_AQUI    # URL do portal a ser testado
-${cliente}            NOME_DO_CLIENTE    # Nome do cliente para login
-${login_gov_br}       False    # Define se usa login gov.br (True/False)
-${usuario_portal}     SEU_CPF_AQUI    # CPF do usuário para login
-${senha_portal}       SUA_SENHA_AQUI    # Senha do usuário
+${link_portal}        https://solarbpm-des.ungp.softplan.com.br/atendimento/inicio
+${cliente}            intDES
+${login_gov_br}       False
+${usuario_portal}     571.142.400-90
+${senha_portal}       SolarRobot@1
 
 
 *** Test Cases ***    # Seção com os casos de teste
